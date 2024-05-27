@@ -54,7 +54,7 @@ ROOT_URLCONF = 'glinandmess.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["project_files/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
