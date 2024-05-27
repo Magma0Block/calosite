@@ -6,3 +6,7 @@ def index_page(request):
     context = {}
 
     return render( request, "index.html", context)
+
+def about_page(request):
+    context = {}
+    return render( request, "about.html", context)
