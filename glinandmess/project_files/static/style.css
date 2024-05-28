@@ -15,7 +15,7 @@ body {
 }
 
 .header2 {
-    background-image: url(source/background.jpg);
+    background-image: url(source/background3.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,7 +128,7 @@ body {
     content: '';
     height: 2px;
     width: 61px;
-    background-color: #fff;
+    background-color: revert;
     top: 127px;
     left: 56px;
 }
@@ -138,7 +138,7 @@ body {
     content: '';
     height: 2px;
     width: 61px;
-    background-color: #fff;
+    background-color: revert;
     top: 127px;
     left: 308px;
 }
@@ -238,12 +238,13 @@ body {
 .history-number {
     display: flex;
     width: 444px;
-    justify-content: center;
+    text-align: center;
     margin-top: 40px;
     margin-left: 30px;
 }
 
 .number-item {
+    position: relative;
     margin-right: 60px;
     text-align: center;
     font-size: 40px;
@@ -273,15 +274,15 @@ body {
 .imgages-2 {
     position: absolute;
     z-index: 999;
-    top: -92px;
-    left: 383px;
+    top: -45px;
+    left: 483px;
 }
 
 .imgages-3 {
     position: absolute;
     z-index: 999;
     top: 246px;
-    left: 481px;
+    left: 401px;
 }
 
 
@@ -290,6 +291,7 @@ body {
 .black-block {
     background-image: url(source/black-bg.jpg);
     padding: 80px 0;
+    
 }
 
 .left-title {
