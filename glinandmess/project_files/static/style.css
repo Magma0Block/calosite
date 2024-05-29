@@ -33,7 +33,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
-
+text-shadow: 1px 1px 1px #000000;
     margin-right: 25px;
 
     transition: color 0.3s linear;
@@ -62,7 +62,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
-
+text-shadow: 1px 1px 1px #000000;
     transition: color 0.3s linear;
 }
 
@@ -74,6 +74,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: #fff;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .phone-holder {
@@ -87,7 +88,7 @@ body {
     text-decoration: none;
     padding: 14px 18px;
     font-weight: 700;
-
+text-shadow: 1px 1px 1px #000000;
     transition: background-color 0.2s linear;
 }
 
@@ -119,7 +120,7 @@ body {
     color: #fff;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-
+text-shadow: 1px 1px 1px #000000;
 
 }
 
@@ -151,6 +152,7 @@ body {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
 
     transition: background-color 0.3s linear;
 }
@@ -191,6 +193,7 @@ body {
     font-size: 26px;
     font-weight: 400;
     color: #fff;
+    text-shadow: 1px 1px 1px #000000;
 
 }
 
@@ -204,7 +207,8 @@ body {
     font-family: 'Tinos', serif;
     font-size: 26px;
     font-weight: 400;
-    color: #656363;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 
@@ -290,16 +294,16 @@ body {
 
 .black-block {
     background-image: url(source/black-bg.jpg);
-    padding: 80px 0;
+
 
 }
 
 .left-title {
-    color: #D67E34;
+    color: #ffffff;
     font-family: 'Tinos', serif;
     font-size: 52px;
     font-weight: 400;
-
+text-shadow: 1px 1px 1px #000000;
     margin-bottom: 20px;
 }
 
@@ -307,6 +311,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     color: #fff;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .right-btn {
@@ -315,6 +320,7 @@ body {
     text-decoration: none;
     padding: 14px 18px;
     font-weight: 700;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .block-holder {
@@ -377,6 +383,7 @@ body {
     color: #fff;
     text-align: center;
     padding-bottom: 138px;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .menu-item {
@@ -385,7 +392,7 @@ body {
     width: 33%;
     padding-top: 80px;
     padding-bottom: 30px;
-
+text-shadow: 1px 1px 1px #000000;
     margin-right: 20px;
 }
 
@@ -407,6 +414,7 @@ body {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
+    text-shadow: 1px 1px 1px #000000;
     box-shadow: 5px 5px 10px 0px #00000040;
 
 }
@@ -431,6 +439,7 @@ body {
     right: 56px;
     color: #fff;
     font-size: 30px;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .menu-items {
@@ -445,6 +454,7 @@ body {
     background-color: #E5E5E5;
     padding-top: 104px;
     padding-bottom: 139px;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .coment-text {
@@ -537,6 +547,7 @@ body {
     padding: 50px 0px;
     color: #fff;
     text-align: center;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 
@@ -621,14 +632,14 @@ button {
 
 
     .cook-content {
-        display: block;
+        /*display: table-column;*/
     }
 
     .cook-content img {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 30px;
+        /*display: table-column-group;*/
+        /*margin-right: auto;*/
+        /*margin-left: auto;*/
+        /*margin-bottom: 30px;*/
     }
 
 
