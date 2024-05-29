@@ -1,3 +1,5 @@
+from urllib import request
+
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -20,3 +22,8 @@ def rent_page(request):
 def revs_page(request):
     context = {}
     return render(request, "revs.html", context)
+
+
+def contacts_page(request):
+    context = {}
+    return render(request, "contacts.html", context)
