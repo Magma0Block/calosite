@@ -1,0 +1,70 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block content %}
+    
+            <div class='history'>
+
+            <div class='container'>
+
+                <div class='history-holder'>
+                    <div class='history-info'>
+                        <div class='history-title'>
+                            Наша <span>История</span>
+                        </div>
+
+                        <div class='history-desc'>
+                            Как и у любого другого самобытного места, у нас есть своя, особая история. Наш
+                            основатель обучался гончарному мастерству с самого детства, что привило ему любовь к
+                            этому делу. А так же желание нести гончарное искусство в массы.
+                        </div>
+
+
+                        <div class='history-number'>
+                            <div class='number-item'>
+                                9 <span>видов глины</span>
+                            </div>
+
+                            <div class='number-item'>
+                                7 <span>мастеров</span>
+                            </div>
+
+                            <div class='number-item'>
+                                71 - <span>выпущено учеников</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='history-images'>
+                        <img class='imgages-1' src="{% static '/source/1.jpg' %}" alt="">
+                        <img class='imgages-2' src="{% static '/source/2.jpg' %}" alt="">
+                        <img class='imgages-3' src="{% static '/source/3.jpg' %}" alt="">
+                    </div>
+                </div>
+
+            </div>
+       <div class='cook'>
+
+            <div class='container'>
+
+                <div class='cook-title'>
+                    Наши <span>Мастера</span>
+                </div>
+
+
+                <div class='cook-content'>
+                    <img src='{% static '/source/billy.jpg' %}'>
+                </div>
+                                <div class='cook-content'>
+                    <img src='{% static '/source/billy.jpg' %}'>
+                </div>
+                                <div class='cook-content'>
+                    <img src='{% static '/source/billy.jpg' %}'>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    
+{% endblock content %}

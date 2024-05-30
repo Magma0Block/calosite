@@ -1,0 +1,115 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block content %}
+  <div class='dishes'>
+
+            <div class='container'>
+
+                <div class='dishes-title'>
+                    Наши <span>тарифы</span>
+                </div>
+
+                <div class='burgers'>
+                    <div class='burgers-image'>
+                        <img src='{% static '' %}' class='pizza' alt="">
+                    </div>
+
+                    <div class='burgers-items'>
+                        <div class='burger-item'>
+                            <img src="{% static '/source/nahui.gif'%}">
+                            <div class='burger-text'>
+                                Мастер класс "мини" -------------- 300 ₽
+                            </div>
+                        </div>
+
+                        <div class='burger-item'>
+                            <img src="{% static '/source/podkat_mini.gif'%}" class=''>
+                            <div class='burger-text'>
+                                Мастер класс "миди" -------------- 1000 ₽
+                            </div>
+                        </div>
+
+                        <div class='burger-item'>
+                            <img src="{% static '/source/podkat.gif' %}" class=''>
+                            <div class='burger-text'>
+                                Мастер класс "по настоящему" -------------- 300$
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class='menu'>
+
+            <div class='container'>
+
+                <div class='menu-title'>
+                    Наши тарифы
+                </div>
+
+                <div class='menu-items'>
+
+                    <div class='menu-item'>
+                        <div class='menu-image'>
+                            <img src='{% static '/source/nahui.gif' %}' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text'>
+                            Мастер класс "мини"
+                        </div>
+
+                        <div class='menu-subtext'>
+                            Мастер класс на котором вам будет доступно - <br> наблюдение за работой мастеров гончарного искусства <br> фотосессия за гончарным кругом <br>   
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='/contacts/' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+
+                    <div class='menu-item'>
+                        <div class='menu-image'>
+                            <img src='{% static '/source/podkat_mini.gif' %}' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text'>
+                            Мастер класс "миди"
+                        </div>
+
+                        <div class='menu-subtext'>
+                            Мастер класс на котором вам будет доступно - <br> условия "мини", а так же создание <br> собственного изделия!
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='/contacts/' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+
+                    <div class='menu-item'>
+                        <div class='menu-image'>
+                            <img src='{% static '/source/podkat.gif' %}' class='menu-img'>
+                        </div>
+
+                        <div class='menu-text'>
+                            Мастер класс "по настоящему"
+                        </div>
+
+                        <div class='menu-subtext'>
+                            Мастер класс на котором вам будет доступно - <br> условия "миди", а так же уникальные для каждого человека <br> "Особые Услуги"
+                        </div>
+
+                        <div class='menu-button'>
+                            <a href='/contacts/' class='menu-btn'>ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+{% endblock content %}
