@@ -52,15 +52,21 @@
 
 
                 <div class='cook-content'>
-                    <img src='{% static '/source/billy.jpg' %}'>
+                    <img src='{% static '/source/billy.jpg' %}' style="width: 400px; height: 400px">
+                    <img src='{% static '/source/mujik.jpg' %}' style="width: 400px; height: 400px">
+                    <img src='{% static '/source/DIMOOOOON.jpg' %}' style="width: 400px; height: 400px">
                 </div>
-                                <div class='cook-content'>
-                    <img src='{% static '/source/billy.jpg' %}'>
-                </div>
-                                <div class='cook-content'>
-                    <img src='{% static '/source/billy.jpg' %}'>
-                </div>
+                
 
+<body>
+  <div class=“container”>
+    <h1>Видео-визитка</h1>
+    <video controls>
+      <source src=“{% static '/source/vidos.mp4' %}” type=“video/mp4”>
+      Ваш браузер не поддерживает тег видео.
+    </video>
+  </div>
+</body>
             </div>
 
         </div>
