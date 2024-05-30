@@ -1,6 +1,110 @@
-{% extends "base/base.html" %}
 {% load static %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='{% static 'style.css' %}'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLIN&MESS</title>
+</head>
 
+<body>
+<div class='header2'>
+    <div class='container'>
+        <div class='header-line'>
+            <div class='header-logo'>
+                <img src="{% static '/source/logo.gif' %}" alt="logo">
+            </div>
 
-{% endblock content %}
+            <div class='nav'>
+                <a class='nav-item' href="/">ГЛАВНАЯ</a>
+                <a class='nav-item' href="/rent/">БРОНЬ</a>
+                <a class='nav-item' href="/about/">О НАС</a>
+                <a class='nav-item' href="/revs/">ОТЗЫВЫ</a>
+            </div>
+
+            <div class='phone'>
+                <div class='phone-holder'>
+                    <div class='phone-img'>
+                        <img src="{% static 'source/phone.png/' %}" alt="">
+                    </div>
+
+                    <div class='number'><a class='num' href='/contacts/'>Контактная информация</a></div>
+                </div>
+
+                <div class='phone-text'>
+                    Свяжитесь с нами для <br> бронирования
+                </div>
+            </div>
+       </div>
+    
+
+            <title>Contact Form</title>
+<style>
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+</style>
+            <body>
+
+<div class="container">
+  <h2>ㅤㅤㅤㅤСвяжитесь с нами прямо сейчас, для получения обратной связи и бронированияㅤㅤㅤㅤ</h2>
+  <form action="https://formspree.io/f/xwkgdkbq" method="POST">
+    <label for="name">Ваше имя:</label><br>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Ваш почтовый адрес:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="message">Сообщение:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br>
+
+    <button type="submit">Отправить</button>
+  </form>
+</div>
+            </body>
+
+    </div>
+     </div>
